@@ -1,0 +1,78 @@
+/* Sorter css */
+
+table{
+	
+	font-family:sans-serif;
+	/* background-color: #CDCDCD; */
+	margin:0px 0pt 0px;
+	font-size: 10pt;
+	width: 100%;
+	text-align: left;
+}
+
+
+table thead tr th, table tfoot tr th{
+	
+	background-color: #FFE5B4;
+	border: 1px solid #FFF;
+	font-size: 10pt;
+	padding: 6px;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+table thead tr .header{
+	
+	background-image: url(../images/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+
+
+table tbody td{
+
+	color: #3D3D3D;
+	padding: 6px;
+       padding-left:4px;
+	background-color:#F0F0F6;
+	vertical-align: top;
+}
+
+
+table tbody tr.odd td { 
+	
+	background-color:#FFE5B4;
+}
+
+
+table thead tr .headerSortUp {
+	
+	background-image: url(../images/asc.gif);
+}
+
+
+table thead tr .headerSortDown{ 
+
+	background-image: url(../images/desc.gif);
+}
+
+table thead tr .headerSortDown, table thead tr .headerSortUp{ 
+	
+	background-color:#E8A317;
+
+}
+
+table#resultstable tr:hover td {
+	
+	background-color: #9EF48C;//A5DF00;
+	cursor:pointer;
+}
+
+table#resultstable tr.odd:hover td {
+	
+	background-color: #9EF48C;//#A5DF00;
+	cursor:pointer;
+}
+

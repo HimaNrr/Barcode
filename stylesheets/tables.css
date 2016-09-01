@@ -1,0 +1,112 @@
+/* tables*/
+
+/* Letter Detail - Options */
+.table-opt tbody td { 
+	color:#3D3D3D;
+    /* background-color:#DF7401;
+    color:#F2DBB6;	
+    font-weight:bold;
+    font-style:italic; */
+}
+
+.table-opt tbody tr.odd td { 
+    /* background-color:#F2DBB6; */
+    background-color:#FFE5B4;
+    color:#3D3D3D;
+    /* color:#C24004; */
+}
+
+
+/* Local Elements Table */
+table.table-locals{
+    background-color: #D9B0DC;
+}
+
+.table-locals thead tr th, .table-locals tfoot tr th, .table-locals tbody tr.odd td, .table-globals thead tr th, .table-globals tfoot tr th, .table-globals tbody tr.odd td, .table-keys thead tr th, .table-keys tfoot tr th, .table-keys tbody tr.odd td,
+.table-lists thead tr th, .table-lists tfoot tr th, .table-lists tbody tr.odd td, .table-nod thead tr th, .table-nod tfoot tr th, .table-nod tbody tr.odd td, .table-paras thead tr th, .table-paras tfoot tr th, .table-paras tbody tr.odd td, 
+.table-barcodes thead tr th, .table-barcodes tfoot tr th, .table-barcodes tbody tr.odd td{
+    background-color:#FFE5B4;
+}
+
+.table-locals thead tr .headerSortDown, .table-locals thead tr .headerSortUp, .table-globals thead tr .headerSortDown, .table-globals thead tr .headerSortUp, .table-keys thead tr .headerSortDown, .table-keys thead tr .headerSortUp, .table-lists thead tr .headerSortDown, 
+.table-lists thead tr .headerSortUp, .table-nod thead tr .headerSortDown, .table-nod thead tr .headerSortUp, .table-paras thead tr .headerSortDown, .table-paras thead tr .headerSortUp, .table-barcodes thead tr .headerSortDown, .table-barcodes thead tr .headerSortUp{ 
+    background-color:#E8A317;	
+}
+
+/* Transmittal Results Table */
+.table-transmittal thead tr th, .table-transmittal tfoot tr th{
+    background-color:#DF7401;  
+}
+.table-transmittal tbody tr.odd td { 
+    background-color:#F2DBB6; 
+}
+.table-transmittal thead tr .headerSortDown, .table-transmittal thead tr .headerSortUp{ 
+    background-color:#E19D55; 
+}
+
+.new-edit-widget table, .new-edit-widget-ge table, .new-edit-widget-ky table, .new-edit-widget-ls table, .new-edit-widget-nod table,
+.new-edit-widget-bc table, .new-global-widget-bc table, .new-edit-widget-para table{        
+    color:#FFE5B4;
+    font-weight:bold;
+    border-style:solid;
+    border:dashed #E8A317;
+    border-width: 2px;
+}
+table.new-edit-widget tbody td, table.new-edit-widget-ge tbody td, table.new-edit-widget-ky tbody td, table.new-edit-widget-ls tbody td,
+table.new-edit-widget-nod tbody td, table.new-edit-widget-bc tbody td, table.new-global-widget-bc tbody td, table.new-edit-widget-para tbody td{
+    background-color:#FFE5B4;
+}
+
+
+.new-edit-widget, .new-edit-widget-ge, .new-edit-widget-ky, .new-edit-widget-ls, .new-edit-widget-nod, .new-edit-widget-bc, 
+.new-global-widget-bc, .new-edit-widget-para{
+    margin: 5px;
+    padding: 5px;
+}
+
+table.new-edit-widget-para td.paraOdd {
+    background-color: #FFE5B4 !important;
+}
+
+/* Return Information Table */
+table.table-retinfo{
+    background-color: #DF7401;
+}
+
+
+.table-retinfo thead tr th, .table-retinfo tfoot tr th{
+    background-color:#DCA468;
+}
+
+.table-retinfo tbody tr.odd td { 
+    background-color:#DA9348;
+    color:#141212;
+}
+
+
+.table-retinfo thead tr .headerSortDown, .table-retinfo thead tr .headerSortUp{ 
+    background-color:#DA8325;	
+}
+
+//highlight of subs&masters selected row of table
+.subsMastersTable tbody tr:nth-child(even) td {
+    background-color: #C6C7F3;
+}
+
+.subsMastersTable tbody tr.highlight td { 
+    background-color: #F2DBB6;
+}
+
+.subMasterStep  {
+    background-color: #F2DBB6; 
+    padding-bottom: 5px !important; 
+    padding: 15px;
+}
+
+.newSubMaster {
+    text-decoration: none; 
+    color: white; 
+    padding: 5px; 
+    background-color: #DF7401; 
+    font-weight: bold;
+}

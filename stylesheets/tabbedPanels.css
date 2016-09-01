@@ -1,0 +1,197 @@
+.toptabbedpanel {
+
+	position:relative;
+	width:auto; 
+	height:auto;
+}
+
+.TabbedPanels {
+	
+	position:relative;
+        width:100%;
+	padding: 0px;
+	background-color: #f2f2f2;
+	height: auto;
+	margin: 0px 15px 10px 0px;
+	float:right;
+	clear:left;
+}
+
+.TabbedPanelsTabGroup {
+	
+	margin-right:1px;
+	padding: 1px;
+	//height: 40px;
+	position:relative;
+        width:100%;
+	overflow:hidden;
+	clear: both;
+	height:auto;	
+	background: #34495e;
+}
+
+.TabbedPanelsTabActive{
+	border :2px solid #34495e; 
+	border-top-color:#E8A317;
+        font-weight:bold;
+}
+.TabbedPanelsTab{
+	margin: 1px;
+  	line-height: 100%;
+  	color:#96ABAF;
+        overflow: visible !important;	 
+        float: left;
+        position: relative;
+        top: 1px;
+	float: left;
+	list-style: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	cursor: pointer;
+	//width: 14.85%; 
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 1px;
+	padding-top: 4px;
+	padding-right: 9px;
+	padding-bottom: 4px;
+	padding-left: 9px;
+	/*border-top-style: none;*/
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	font-family: sans-serif;
+	font-size: 1.0em;/* 0.9em */
+	/* font-weight: bold; */
+	font-color:#000;/*BLACK*/
+	/* tab border code 
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;*/
+	/* end of tab border code for tab area */
+	height: auto; /* new - auto */
+	text-align: center; 
+	display:block;
+	text-decoration: none;
+}
+
+div.TabbedPanelsTabGroup a:hover, ul.TabbedPanelsTabGroup a:focus
+{
+	color: #E8A317; 
+	font-weight:bold;
+}
+
+.TabbedPanelsContentGroup {
+        
+	position:relative;
+	overflow:hidden;
+	clear: both;
+	height:auto;
+	margin-left: 20px;
+/*	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	background-color: #FFF; */
+}
+
+.TabbedPanelsContent {
+        
+	postion:relative;
+	/* overflow: hidden; */
+	padding: 1px;
+	height: auto; /* 550 earlier 300 */
+	/* background:#FFF;  */
+       
+	/* border for header */
+	-webkit-border-bottom-right-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-moz-border-radius-bottomright: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;	
+}
+
+.button {
+	
+	border: solid 1px #da7c0c;
+        background: #f78d1d;
+        background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+	/* border: 1px solid #006;
+	background:#000; 333 */
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	width: auto; 
+	height: auto; 
+	font-size: 0.75em; 
+	color:#FFF; 
+	font-family: sans-serif; 
+	font-weight: bold;
+}
+
+.button:hover, .gobutton:hover {
+	
+	/* border: 1px solid #f00;
+	background: #666; */
+	border: 1px solid #da7c0c;
+	background: #da7c0c;
+}
+
+.gobutton{
+	
+   	border: solid 1px #da7c0c;
+        background: #f78d1d;
+        background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+	/* border: 1px solid #006;
+	background:#000; */ 	
+	border-radius: 4px;	
+	float:right; 
+	clear:left; 
+        margin-right: 13px;
+	width: auto; 
+	height: auto; 
+	font-size: 12px; 
+	color:#FFF; 
+	font-family: Verdana, Geneva, sans-serif; 
+	font-weight: bold; 
+	text-align: center; 
+}
+
+.inputbox{
+ 	
+	margin-left: 9px;
+ 	align:center;
+ 	width:11em;
+}
+
+.add-button{
+	background: url('../images/add.png'); 
+	background-size:100%;
+    background-repeat: space;
+    border: 0px;
+    width: 82%; 
+    height: 20%; 
+    padding-left: 0px;
+}
+
+.remove-button{
+	background: url('../images/remove.png'); 
+	color: white; 
+	background-size:100%; 
+	background-repeat: space; 
+	border: 0px; 
+	width: 99%; 
+	height: 20%; 
+	padding-right: 22px;
+}
+/*body, html {  set size of body to full page and remove margins 
+    	width: 100%;
+    	height: 100%;
+    	padding: 0;
+    	margin: 0;
+}*/

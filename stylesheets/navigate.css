@@ -1,0 +1,163 @@
+.main{
+ 	
+	background-color:#f2f2f2;
+ 	margin-left:0px;
+ 	margin-top:10px;
+ 	margin-bottom:"";        
+}
+
+.main-container{
+
+  	padding-top: 4px;
+  	padding-right: 10px;
+	padding-bottom: 4px;
+	padding-left: 15px;
+    width:100%;
+}
+
+.navigate{
+
+ 	text-align:center;
+}
+
+.left-nav{
+
+       position:relative;
+	overflow:hidden;
+	border:solid; 
+	border-width:2px;
+	width:13%; 
+	//height:460px;
+       height:auto;
+	float:left; 
+	margin-right:1px; 
+	background-color:#999; 
+	padding: 2px;
+}
+
+.right-content{
+
+	position:relative;
+	width:84%; /*earlier 84.8%*/
+	//height:460px;
+    height:auto;
+	float:left; 
+	border:solid; 
+	border-width: 2px; 
+	padding: 2px;
+	//background-color:#CCC;	
+	margin-right:10px;	
+}
+
+.search_btn {
+
+	float: left;
+	font-family: Verdana, Geneva, sans-serif; 
+	font-size: 12px; 
+	font-weight: bold; 
+	text-align:left; 
+	color: "#FFF"
+}
+
+.letter-div, .lproc-div, .obiee-div, .locale-div,.list-global-div,.nonlist-global-div { 
+	
+	margin-bottom: 2em; 
+	margin-top:2em;
+	overflow:hidden;
+} 
+
+.sch-div {
+
+	margin-bottom: 2em; 
+	margin-top: 2em;
+	margin-left: 2em;
+	margin-right: 10em;
+	overflow:hidden;
+
+}
+
+.brules-div {
+	
+	margin-bottom: 2em; 
+	margin-top:2em;
+	margin-right: 20em;
+	overflow:hidden;
+}
+
+.loc-div {
+	
+	margin-bottom: 2em; 
+	margin-top:2em;
+	overflow:hidden;
+} 
+
+.rtf-div {
+	
+	margin-bottom: 1.5em; 
+	margin-top:1.5em;
+	overflow:hidden;
+	margin-left: 2em;
+	margin-right: 15em;
+
+}
+
+.green,.red{	 
+	width:10px;
+	height:10px;
+	border-style: none;
+}
+
+.nav-button{
+
+	width: auto; 
+	height: auto;
+	color: #F2F3F4; 
+	font-size:12px;
+	font-weight:bold;
+	-moz-border-radius: 5px;
+   	-webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+	padding:0;
+	border: solid 1px #da7c0c;
+    background: #f78d1d;
+    background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+   /*  background-color:#9A3081; */
+}
+.nav-button:hover{
+	
+	border: 1px solid #da7c0c;
+	background: #da7c0c;
+}
+
+textarea {
+
+  	resize: none;
+  	/*background: url(images/benice.png) center center no-repeat; /* This ruins default border */
+  	border: 1px solid #888; 
+  	vertical-align: middle;
+  	/* background-color:#F0E8F0;/*FAEDFA; */
+}
+
+.text_input{
+	
+	width: 230px;
+}
+
+option{
+	
+	/* background-color:#CCC; */
+	color:#AD5215;
+	font-weight:bold;
+ 	padding:3px;
+}
+
+option:hover {
+	
+	color: #3D3D3D;
+    background-color: rgba(232, 163, 23,0.5);
+}
+.fieldError {
+    color: #D62A1E;
+}
+

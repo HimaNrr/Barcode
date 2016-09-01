@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+/********************************************* EL ******************************************************/
+
+/* The outermost container of the Menu Bar, a fixed width box with no margin or padding */
+ul.MenuBarVerticalEL,ul.MenuBarVerticalLD,ul.MenuBarVerticalLE,ul.MenuBarVerticalGE,ul.MenuBarVerticalKY,ul.MenuBarVerticalLS, ul.MenuBarVerticalNOD,ul.MenuBarVerticalNP,ul.MenuBarVerticalBC,ul.MenuBarVerticalTS 
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 12px; 
+	cursor: default;
+	/*width: 164px; auto*/
+	font-weight: bold;
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: #999;
+}
+
+/* Outermost menu container has borders on all sides */
+ul.MenuBarVerticalEL,ul.MenuBarVerticalLD,ul.MenuBarVerticalLE,ul.MenuBarVerticalGE,ul.MenuBarVerticalKY,ul.MenuBarVerticalLS,ul.MenuBarVerticalNOD,ul.MenuBarVerticalNP,ul.MenuBarVerticalBC,ul.MenuBarVerticalTS
+{
+	/*width: 164px; /*154px*/
+	font-size: 12px;
+}
+
+/* Menu items are a light gray block with padding and no text decoration */
+ul.MenuBarVerticalEL a,ul.MenuBarVerticalLD a,ul.MenuBarVerticalLE a,ul.MenuBarVerticalGE a,ul.MenuBarVerticalKY a,ul.MenuBarVerticalLS a,ul.MenuBarVerticalNOD a,ul.MenuBarVerticalNP a,ul.MenuBarVerticalBC a,ul.MenuBarVerticalTS a
+{
+	display: block;
+	cursor: pointer;
+	background-color: #999;
+	padding: 0.5em 0.75em;
+	color: #FFF;
+	text-decoration: none;
+}
+
+/* Menu items that have mouse over or focus have a blue background and white text */
+ul.MenuBarVerticalEL a:focus, ul.MenuBarVerticalEL a:active,
+ul.MenuBarVerticalLD a:focus, ul.MenuBarVerticalLD .active,
+ul.MenuBarVerticalLE a:focus, ul.MenuBarVerticalGE a:focus,
+ul.MenuBarVerticalKY a:focus, ul.MenuBarVerticalLS a:focus,
+ul.MenuBarVerticalNP a:focus, ul.MenuBarVerticalBC a:focus,
+ul.MenuBarVerticalNOD a:focus, ul.MenuBarVerticalTS a:focus
+{
+	background-color: #E8A317 !IMPORTANT;
+	color: #FFF; 
+}
+
+ul.MenuBarVerticalLD a:hover, ul.MenuBarVerticalLE a:hover, ul.MenuBarVerticalKY a:hover, ul.MenuBarVerticalGE a:hover,
+ul.MenuBarVerticalLS a:hover, ul.MenuBarVerticalNP a:hover, ul.MenuBarVerticalNOD a:hover, ul.MenuBarVerticalBC a:hover, 
+ul.MenuBarVerticalEL a:hover, ul.MenuBarVerticalTS a:hover{
+	
+	background-color: rgba(232, 163, 23,0.5);
+	color: #FFF;
+}
+
+/*.MenuBarVerticalLD .new-letter, .MenuBarVerticalLD .details, .MenuBarVerticalLD .options_left  {
+    background-color: #99CCFF;
+    color: #000;
+}*/
+
+.MenuBarItemSubmenu{
+	color: #000;    
+}
+
+.left_Para{
+    width: 164px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #999;
+    color: #fff;
+    border: #999;
+    padding: 5px;
+}
+.left_Para:hover {
+    background-color: #E8A317;
+}
